@@ -1,8 +1,8 @@
 package laboratorium.zadanie.uruun;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -10,7 +10,7 @@ public class FriendshipsTestAssertj {
 
 	Friendships fs;
 	
-    @BeforeEach
+    @Before
     public void setup(){
         fs = new Friendships();
     }
@@ -38,7 +38,7 @@ public class FriendshipsTestAssertj {
         String f2 = "Peter";
         String f3 = "Mark";
         fs.makeFriends(f1, f2);
-        assertThat(fs.getFriendsList(f3)).is(null);
+        assertThat(fs.getFriendsList(f3)).isEqualTo(null);
     }
     
     @Test
@@ -68,7 +68,7 @@ public class FriendshipsTestAssertj {
         assertThat(fs.getFriendsList(f1)).hasSize(1).doesNotContain(f3).contains(f2);
     }
 
-    @AfterEach
+    @After
     public void teardown(){
         fs = null;
     }
