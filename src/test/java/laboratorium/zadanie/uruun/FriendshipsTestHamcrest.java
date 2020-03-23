@@ -72,7 +72,7 @@ public class FriendshipsTestHamcrest {
     }
     
     @Test
-    public void shouldReturnFalseWhenCheckingForFriendship() {
+    public void test_areFriends_2() {
         final String f1 = "John";
         final String f2 = "Peter";
         final String f3 = "Mark";
