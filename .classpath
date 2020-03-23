@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/assertj-core-3.8.0.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/hamcrest-generator.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/hamcrest-integration.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/hamcrest-library.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-jupiter-5.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-jupiter-api-5.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-jupiter-engine-5.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-jupiter-migrationsupport-5.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-jupiter-params-5.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-commons-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-console-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-console-standalone-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-engine-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-launcher-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-reporting-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-runner-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-suite-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-platform-testkit-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/urun/Downloads/junit-vintage-engine-5.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
